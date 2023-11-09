@@ -1,6 +1,6 @@
-function navigate(target) {
+function navigateTo(target) {
     if(target === "home")
-        window.location.navigate("https://andrewnationdev.github.io/biversetheory/");
+        window.location.href = "https://andrewnationdev.github.io/biversetheory/";
 
-        window.location.navigate(`https://andrewnationdev.github.io/biversetheory/${target}.html`);
+        window.location.href = `https://andrewnationdev.github.io/biversetheory/${target}.html`;
 }

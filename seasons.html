@@ -25,10 +25,10 @@
                 </label>
                 <div class="collapsible-body">
                     <ol>
-                        <button onclick="navigate('home')"class="btn-primary">Início</button>
-                        <button onclick="navigate('pages')" class="btn-secundary">Jogos</button>
-                        <button onclick="navigate('characters')" class="btn-success">Personagens</button>
-                        <button onclick="navigate('seasons')" class="btn-warning">Temporadas</button>
+                        <button onclick="navigateTo('home')" class="btn-primary">Início</button>
+                        <button onclick="navigateTo('pages')" class="btn-secundary">Jogos</button>
+                        <button onclick="navigateTo('characters')" class="btn-success">Personagens</button>
+                        <button onclick="navigateTo('seasons')" class="btn-warning">Temporadas</button>
                     </ol>
                 </div>
             </div>
@@ -37,59 +37,74 @@
 
     <main class="container paper" style="margin-top: 133px">
         <div class="row">
-            <div class="card" style="width: 20rem;">
-                <img src="https://picsum.photos/768" alt="Card example image">
+            <div class="card" style="">
                 <div class="card-body">
-                  <h4 class="card-title">Biverse Theory: Academic Season</h4>
-                  <h5 class="card-subtitle">Bem-vindos de volta à época da faculdade nos nossos queridos personagens.</h5>
-                  <p class="card-text">This is another example of a card without image. Cards are also meant to be used without images, but with text/links/buttons.</p>
-                  <a class="card-link" href="#">First link</a>
-                  <a class="card-link" href="#">Second link</a>
+                    <h4 class="card-title">Biverse Theory: Academic Season</h4>
+                    <img src="/assets/biversecampus.jpeg" alt="Biverse Theory Campus">
+                    <h5 class="card-subtitle">Bem-vindos de volta à época da faculdade nos nossos queridos personagens.
+                    </h5>
+                    <p class="card-text">This is another example of a card without image. Cards are also meant to be
+                        used without images, but with text/links/buttons.</p>
+                    <a class="card-link">Em breve!</a>
                 </div>
-              </div>
+            </div>
         </div>
 
         <div class="row flex-center">
             <div class="card" style="width: 20rem;">
                 <img src="https://picsum.photos/768" alt="Card example image">
-              
+
                 <div class="card-body">
-                  <h4 class="card-title">Temporada 1</h4>
-                  <h5 class="card-subtitle">Nice looking subtitle.</h5>
-                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
-                  <button>Let me go here!</button>
+                    <h4 class="card-title">Temporada 1</h4>
+                    <h5 class="card-subtitle">Nice looking subtitle.</h5>
+                    <p class="card-text">Biverse Theory se passa no biverso, que é um universo fictício existente dentro
+                        de um jogo eletrônico VR multiplayer de criação de multiversos com IA baseados em inputs e
+                        adjetivos criado pelo cientista e programador Andrew Nation. Depois que o biverso foi hackeado e
+                        novos personagens foram injetados ali, sendo um deles o anti-herói Daniel, eventos estranhos
+                        começaram a acontecer.</p>
+                    <button>Leia o Roteiro</button>
                 </div>
-              </div>
-              <div class="card" style="width: 20rem;">
+            </div>
+            <div class="card" style="width: 20rem;">
                 <img src="https://picsum.photos/768" alt="Card example image">
-              
+
                 <div class="card-body">
-                  <h4 class="card-title">Temporada 2</h4>
-                  <h5 class="card-subtitle">Nice looking subtitle.</h5>
-                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
-                  <button>Let me go here!</button>
+                    <h4 class="card-title">Temporada 2</h4>
+                    <h5 class="card-subtitle">Nice looking subtitle.</h5>
+                    <p class="card-text">Quatro personagens com poderes, o Andrew, o Gabriel, o Eric e a Nicole
+                        terão que deter o Daniel e evitar que ele roube seus poderes para se tornar invencível,
+                        provavelmente culminando na destruição do biverso.</p>
+                    <button>Leia o Roteiro</button>
                 </div>
-              </div>
-              <div class="card" style="width: 20rem;">
+            </div>
+            <div class="card" style="width: 20rem;">
                 <img src="https://picsum.photos/768" alt="Card example image">
-              
+
                 <div class="card-body">
-                  <h4 class="card-title">Gabriel and Ezekiel's Show (T3)</h4>
-                  <h5 class="card-subtitle">Nice looking subtitle.</h5>
-                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
-                  <button>Let me go here!</button>
+                    <h4 class="card-title">Gabriel and Ezekiel's Show (T3)</h4>
+                    <h5 class="card-subtitle">Nice looking subtitle.</h5>
+                    <p class="card-text">Biverse Theory: Gabriel and Ezekiel's Show volta para a época em que Gabriel
+                        tinha 13 anos e foca na convivência entre ele e seu pai Ezekiel. Claro, também é mostrada a
+                        convivência com sua mãe, Heloíse, mas ele é bem mais próximo de seu pai. Ezekiel é aquele tipo
+                        de pai que gosta de ser o melhor amigo de seu filho e às vezes ele chega até a passar pano para
+                        as coisas que o Gabriel apronta, mesmo que ele esteja errado. Já Heloíse gosta de impor limites
+                        ao filho. Não é raro vermos Heloíse e Ezekiel brigando pelas divergências com relação aos pontos
+                        de vista de cada um sobre como educar seu filho.</button>
                 </div>
-              </div>
-              <div class="card" style="width: 20rem;">
+            </div>
+            <div class="card" style="width: 20rem;">
                 <img src="https://picsum.photos/768" alt="Card example image">
-              
+
                 <div class="card-body">
-                  <h4 class="card-title">As Peripécias de Andrew Malvado (T4)</h4>
-                  <h5 class="card-subtitle">Nice looking subtitle.</h5>
-                  <p class="card-text">Notice that the card width in this example have been set to 20rem, otherwise it will try to fill the current container/row where the card is.</p>
-                  <button>Let me go here!</button>
+                    <h4 class="card-title">As Peripécias de Andrew Malvado (T4)</h4>
+                    <h5 class="card-subtitle">Nice looking subtitle.</h5>
+                    <p class="card-text">Na temporada mais sombria e emotiva de Biverse Theory até agora, Andrew fica
+                        obcecado por um amuleto, acreditando que ele seria a resolução para todos os seus problemas.
+                        Gabriel e Eric passam por instabilidades em seu relacionamento, levando a brigas e discussões
+                        entre eles. Ezekiel também não parece estar em seu melhor momento psicologicamente.</p>
+                    <button>Leia o Roteiro</button>
                 </div>
-              </div>
+            </div>
         </div>
     </main>
 
