@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biverse Theory - O site oficial</title>
     <link rel="stylesheet" href="css/base.css">
+    <script src="js/actions.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
 </head>
 
@@ -24,10 +25,10 @@
                 </label>
                 <div class="collapsible-body">
                     <ol>
-                        <button class="btn-primary">Início</button>
-                        <button class="btn-secundary">Jogos</button>
-                        <button class="btn-success">Personagens</button>
-                        <button class="btn-warning">Temporadas</button>
+                        <button onclick="navigate('home')"class="btn-primary">Início</button>
+                        <button onclick="navigate('pages')" class="btn-secundary">Jogos</button>
+                        <button onclick="navigate('characters')" class="btn-success">Personagens</button>
+                        <button onclick="navigate('seasons')" class="btn-warning">Temporadas</button>
                     </ol>
                 </div>
             </div>
@@ -69,16 +70,17 @@
                 </div>
             </div>
 
-        <div class="card col-fill col" style="width: 20rem;">
-            <img src="assets/ezekiel.jpg" alt="Card example image">
-          
-            <div class="card-body">
-              <h4 class="card-title">Ezekiel</h4>
-              <h5 class="card-subtitle">Pai do gabriel</h5>
-              <p class="card-text">Ezekiel é o pai mais fofo do mundo, super protetor com seu filho, ja disse que ele é o mais fofo?</p>
-              
+            <div class="card col-fill col" style="width: 20rem;">
+                <img src="assets/ezekiel.jpg" alt="Card example image">
+
+                <div class="card-body">
+                    <h4 class="card-title">Ezekiel</h4>
+                    <h5 class="card-subtitle">Pai do gabriel</h5>
+                    <p class="card-text">Ezekiel é o pai mais fofo do mundo, super protetor com seu filho e possui vários conflitos internos. Já disse que
+                        ele é o mais fofo?</p>
+
+                </div>
             </div>
-        </div>
     </main>
 
     <footer></footer>

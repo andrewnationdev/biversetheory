@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biverse Theory - O site oficial</title>
-    <link
-        rel="stylesheet"
-        href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
-    />
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/actions.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
 </head>
+
 <body>
     <header>
         <nav class="border fixed split-nav">
@@ -16,26 +17,35 @@
                 <img src="assets/biversetheory.png" alt="" width="85px">
             </div>
             <div class="collapsible">
-              <input id="collapsible2" type="checkbox" name="collapsible2">
-              <label for="collapsible2">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-              </label>
-              <div class="collapsible-body">
-                <ol>
-                    <button class="btn-primary">Início</button>
-                    <button class="btn-secundary">Jogos</button>
-                    <button class="btn-success">Personagens</button>
-                    <button class="btn-warning">Temporadas</button>
-                </ol>
-              </div>
+                <input id="collapsible2" type="checkbox" name="collapsible2">
+                <label for="collapsible2">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </label>
+                <div class="collapsible-body">
+                    <ol>
+                        <button onclick="navigate('home')"class="btn-primary">Início</button>
+                        <button onclick="navigate('pages')" class="btn-secundary">Jogos</button>
+                        <button onclick="navigate('characters')" class="btn-success">Personagens</button>
+                        <button onclick="navigate('seasons')" class="btn-warning">Temporadas</button>
+                    </ol>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
 
-    <main></main>
+    <main class="container paper" style="margin-top: 133px">
+        <div class="row">
+            
+        </div>
+
+        <div class="row flex-center">
+            
+        </div>
+    </main>
 
     <footer></footer>
 </body>
+
 </html>
