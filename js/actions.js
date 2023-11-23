@@ -4,5 +4,10 @@ function navigateTo(target) {
         return;
     }
 
-        window.location.href = `https://andrewnationdev.github.io/biversetheory/${target}.html`;
+    if(target === 'games'){
+        window.location.href = "https://andrewnationdev.vercel.app/games";
+        return;
+    }
+
+    window.location.href = `https://andrewnationdev.github.io/biversetheory/${target}.html`;
 }
